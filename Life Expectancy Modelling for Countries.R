@@ -1,6 +1,6 @@
 
 size <- dim(countries)[1]  
-set.seed(913288760)      # use your student ID number as the seed.
+set.seed(913288760)      
 subsample <- sample(size, size*0.8)  
 countries80 <- countries[subsample, ]  
 
